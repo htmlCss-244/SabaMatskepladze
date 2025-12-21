@@ -1,0 +1,133 @@
+
+body{
+    background-color: rgb(163, 165, 165);
+    margin: 0;
+}
+
+.logo {
+    color: rgb(227, 226, 228);
+}
+header {
+    background-color: rgb(182, 105, 105);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+nav ul li {
+    margin: 10px;
+}
+.auth a{
+    text-decoration: none;
+    color: black;
+}
+
+/* DropDown */
+.dropdown {
+    position: relative;
+    
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(243, 238, 238);
+    padding: 10px;
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu li a:hover {
+    background-color: #ecc6c6;
+}
+
+
+main h1 {
+    text-align: center;
+    color: rgb(18, 18, 19);
+    font-size: 35px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.products img {
+    width: 250px;
+    height: 150px;
+
+}
+
+.products div {
+    text-align: center;
+    background-color: rgb(133, 143, 143);
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+ .products div a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20%;
+    background-color: black;
+    color:  rgb(247, 247, 247);
+ }
+
+ .maindiv2 {
+    margin: 20px;
+    text-align: center;
+    
+ }
+
+ table {
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    
+ }
+ th, td {
+    border: 2px solid black;
+ }
+ th {
+    background-color: blueviolet;
+ }
+ td {
+    background-color: rgb(179, 79, 79);
+ }
+ 
+footer {
+    background-color: rgb(182, 105, 105);
+    height: 150px;
+}
+.ratebox {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+.rate {
+    width: 50%;
+    height: 120px;
+    background-color: #e6e6e6;
+    font-size: 15px;
+    
+}
+.send {
+    width: 80px;
+    height: 50px;
+    margin: 15px;
+}
