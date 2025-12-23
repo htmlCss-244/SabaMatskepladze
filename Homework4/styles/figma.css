@@ -1,0 +1,86 @@
+.figmasize {
+    width: 960px;
+    height: 978px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: black;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px; 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 39px;
+  
+}
+.bouldering {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 64px;
+    font-family: "Roboto";
+
+}
+
+.img1 {
+    width: 200px;
+    height: 150px;
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img2 {
+    width: 225px;
+    height: 150px;
+}
+.img3 {
+    width: 100px;
+    height: 150px;
+}
+.box{
+    width: 870px;
+    height: 225px;
+    margin-top: 60px;
+    margin-left: 45px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.inthebox {
+    font-family: "Roboto";
+    font-weight:400 ;
+    font-size: 24px;
+    padding-left: 15px;
+}
+.footerbox {
+    width: 960px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 70px;
+}
+.email {
+    display: flex;
+    width: 930px;
+    height: 40px;
+    margin-top: 15px;
+}
+.phone {
+    display: flex;   
+    width: 930px;
+    height: 40px;
+    margin-top:20px ;
+}
