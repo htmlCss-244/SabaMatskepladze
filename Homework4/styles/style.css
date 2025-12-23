@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(179, 179, 177);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    font-size: 65px;
+    font-family: "bebas-neue-regular", sans-serif;
+    text-decoration: none;
+    color: brown;
+    font-weight: 500;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.main div {
+    width: 33%;
+    height: 100%;
+}
+.div1 {
+    font-size: 23px;
+    margin-left: 50px;
+}
+.div1 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.div2 {
+    text-align: center;
+}
+.box {
+    background-color: rgb(59, 61, 61);
+    margin-top: 25px;
+    border: 2px solid black;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    
+}
+.size{
+    width: 50%;
+    height: 20px;
+    margin-top: 10px;
+}
+.comment {
+    margin-top: 10px;
+    width: 50%;
+    height: 65px;
+}
+.submit {
+    padding: 15px;
+}
