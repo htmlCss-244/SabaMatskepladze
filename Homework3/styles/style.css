@@ -1,0 +1,35 @@
+h1{
+    color: #ff0037;
+    text-align: center;
+}
+h2{
+     color: #dd4e22;
+}
+p{
+    color: brown;
+}
+
+body {
+    background-color: rgb(210, 211, 211);
+}
+.gt {
+    text-align: center;
+}
+.car12 {
+    border: 2px solid black;
+    border-radius: 15%;
+}
+.amg{
+    width: 800px;
+    height: 600px;
+}
+
+.text {
+    height: 80px;
+    width: 300px;
+    margin: 8px;
+}
+.rate {
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+}
