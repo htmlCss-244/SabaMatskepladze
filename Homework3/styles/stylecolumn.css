@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(153, 153, 153);
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+table{
+    border: 2px solid purple;
+    border-collapse: collapse;
+}
+th {
+    border: 2px dashed purple;
+    padding: 10px;
+    background-color: rgb(250, 218, 177);
+
+}
+td{
+    border: 2px dashed purple;
+    padding: 10px;
+    background-color: rgb(188, 223, 223);
+    
+}
+#last {
+    display: inline;
+}
+
