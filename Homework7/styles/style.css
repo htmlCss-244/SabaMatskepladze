@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+header {
+    background-color: rgb(160, 145, 145);
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    font-family:"Oswald", sans-serif;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    padding: 12px ;
+    transition: 0.3s;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+ nav a:hover{
+    transform: scale(1.1);
+    background: #3f3d3d;
+    color: rgb(255, 255, 255);
+ }
+ body{ 
+    background-color: rgb(196, 196, 196);
+    margin: 0;
+ }
+  table {
+    display: flex;
+    justify-content: center;
+ }
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #929292;
+}
+th{
+    background-color: rgb(152, 170, 170);
+}
+td{
+    background-color: bisque;
+}
+td:hover {
+    transform: scale(1.1);
+    color: rgb(253, 127, 127);
+    background-color: beige;
+}
+main{
+    text-align: center;
+}
+.Sidenav {
+  position: fixed;
+  left: 0;
+  top: 220px;
+  transform: translate(-50%, -50%);
+}
+
+.Sidenav a {
+  position: absolute;
+  font-size: 17px;
+  text-align: left;
+  padding: 15px 25px;
+  color: aliceblue;
+  width: 100px;
+  text-decoration: none;
+  display: flex;
+  transition: 0.3s;
+  left: -100px;
+
+}
+.sidenav a img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+}
+.Sidenav a:hover {
+    left: 0;
+}
+#facebook {
+    top: 20px ;
+    background-color: rgb(51, 102, 211);
+}
+#instagram {
+  top: 70px;
+  background-color: #090636;
+}
+
+#twitter {
+  top: 120px;
+  background-color: #8b9faf;
+}
+
+#linkedin {
+  top: 170px;
+  background-color: #887c7b;
+}
+
+#youtube {
+  top: 220px;
+  background-color: #3a3434
+}
+.container{
+    
+    border: 5px solid red;
+    width: 450px;
+    height: 350px;
+    background-color: antiquewhite;
+}
+.user {
+    text-align: left;
+    display: flex;
+    padding: 10px;
+}
+
+.rating {
+  display: inline-flex;
+  font-size: 28px;
+}
+
+.rating span {
+  color: #fd6d6d;
+  cursor: pointer;
+}
+.rating span:hover {
+    color: gold;
+}
+
+.textarea {
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button{
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    
+}
+.btn-size {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn1 {
+    background-color: rgb(73, 173, 73);
+    color: aliceblue;
+}
+.btn2 {
+    background-color: rgb(207, 68, 91);
+    color: aliceblue;
+}
+
+footer{
+    background-color: #3f3d3d;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer div {
+    margin: 80px;
+}
+ footer h5{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.news {
+    text-align: center;
+}
+.links a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.comment {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+.subscribe {
+    background-color: transparent;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: aliceblue;
+}
+.contact a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+}
+.contact {
+    text-align: center;
+}
