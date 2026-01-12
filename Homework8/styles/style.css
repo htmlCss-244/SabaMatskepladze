@@ -1,0 +1,187 @@
+
+header {
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+nav a:hover{
+    transform: scale(1.1);
+ }
+ body{
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg);
+    background-size: contain;
+    background-repeat: repeat;
+ }
+.title {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(2px);
+ }
+h2 {
+  text-shadow: 2px 2px #616566;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.sections img{
+    border-radius: 5%;
+    width: 200px;
+    height: 150px;
+    margin-top: 15px;
+    transition: 4s;
+}
+.sections img:hover{
+    transform: scale(1.1);
+    transform: rotate(20deg);
+}
+.box {
+    border: 3px solid black;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+}
+.box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+.box a:hover {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.tt {
+    padding: 10px;
+    text-align: left;
+}
+.user img{
+    width: 35px;
+    height: 35px;
+}
+.user {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.keyframe {
+    margin-top: 35px;
+    width: 100px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(233, 108, 108);
+    position: relative;
+    animation-name: square;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes square {
+  0%   {top: 0px; left: 0px; background: rgb(255, 0, 0);}
+  25%  {top: 50px; left: 13%; background: rgb(0, 0, 255);}
+  50%  {top: 0px; left: 66%; background: rgb(255, 255, 0);}
+  75%  {top: 50px; left: 90%; background: rgb(0, 255, 0);}
+  100% {top: 0px; left: 0px; background: rgb(255, 0, 0);}
+}
+.loadmore {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(190, 201, 235);
+}
+.tables {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #929292;
+}
+th{
+    background-color: rgb(160, 166, 224);
+}
+td {
+    background-color: rgba(177, 221, 250, 0.541);
+}
+
+td:hover {
+    transform: scale(1.1);
+}
+th:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: rgb(105, 144, 228);
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+
+}
+.upper nav img {
+    width: 30px;
+}
+.upper nav img:hover {
+    transform: scale(1.2);
+}
+.middle-box {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.middle{
+    text-align: center;
+}
+.middle h4:hover {
+    text-decoration: underline;
+}
+.middle a , h4{
+    text-decoration: none;
+    color: aliceblue;
+}
+.middle ul{
+    list-style-type: none;
+    text-align: left;
+}
+.button2 {
+    width: 200px;
+    height: 35px;
+}
+.third {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(96, 135, 187);
+    padding: 20px;
+}
+.third a{
+    text-decoration: none;
+    color: black;
+}
+.last{
+    padding: 20px;
+}
