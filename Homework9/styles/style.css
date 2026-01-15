@@ -1,0 +1,88 @@
+
+body{
+    background-color: rgb(80, 80, 80);
+    margin: 0;
+}
+header {
+    background-color: grey;
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.upper a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(201, 255, 130);
+    font-weight: bold;
+}
+ header nav {
+    display: flex;
+    gap: 40px;
+    padding-right: 70px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(106, 107, 112);
+    height: 50px;
+    align-items: center;
+}
+nav a:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+header img {
+    width: 100%;
+    height: 400px;
+}
+.key {
+    position: relative;
+    animation-name: hello;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    width: 99%;
+}
+@keyframes hello {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+ }
+}
+main h1 , p{
+    color: aliceblue;
+}
+main{
+    align-items: center;
+    text-align: center;
+}
+.about {
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(85, 85, 84);
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.boxes ul{
+    list-style: none;
+    text-align: left;
+}
